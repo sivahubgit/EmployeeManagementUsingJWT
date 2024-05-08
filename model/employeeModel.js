@@ -35,7 +35,7 @@ async function employeeModel(){
                     }
                 },
                 required: [
-                    "name", "userName", "password", "age", "position", "yearsOfExperience","mobileNumber"
+                    "_id","name", "userName", "password", "age", "position", "yearsOfExperience","mobileNumber"
                 ]
             }
             }
